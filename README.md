@@ -1,4 +1,5 @@
 Hangman Game
+
 This is a simple implementation of the Hangman game in C++. The game allows the player to guess letters in order to complete a hidden word. The player has a limited number of incorrect guesses before losing the game.
 
 How to Play
