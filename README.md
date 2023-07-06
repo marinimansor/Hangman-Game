@@ -2,7 +2,7 @@ Hangman Game
 This is a simple implementation of the Hangman game in C++. The game allows the player to guess letters in order to complete a hidden word. The player has a limited number of incorrect guesses before losing the game.
 
 How to Play
-1. The game selects a random word from a provided word list.
+1. The game selects a random word from a provided word list file named "wordlist.txt". You can download the file from the GitHub link provided: https://github.com/marinimansor/Hangman-Game
 2. The player is presented with a blank representation of the word, with underscores representing each letter.
 3. The player guesses letters by entering them one at a time.
 4. If the guessed letter is present in the word, it is revealed in the correct position(s). If not, a part of the hangman is drawn.
@@ -16,6 +16,13 @@ vector
 fstream
 string
 time.h
+
+Usage
+1. Clone or download the source code from the GitHub repository: https://github.com/marinimansor/Hangman-Game.
+2. Download the word list file "wordlist.txt" from the repository: wordlist.txt.
+3. Compile the source code using a C++ compiler. For example, using g++: g++ hangman.cpp -o hangman
+4. Run the compiled executable:./hangman
+5. Follow the on-screen instructions to play the game.
 
 Customization
 -The word list is loaded from the "wordlist.txt" file. You can modify this file to change the available words for guessing. Make sure each word is on a separate line.
